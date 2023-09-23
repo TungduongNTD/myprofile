@@ -112,6 +112,11 @@ html {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    transition: transform .3s linear;
+    
+.card__title--img:hover img {
+    transform: scale(1.3);
+}
 }
 .card__title--name {
     position: relative;
